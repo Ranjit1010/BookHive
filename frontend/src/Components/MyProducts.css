@@ -1,0 +1,97 @@
+/* Product Card styles */
+.home-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.home-product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-product-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  cursor: pointer;
+  width: 100%;
+  max-width: 250px;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px; /* Set a fixed height for all cards */
+}
+
+.home-product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.home-product-card-category {
+  text-align: center;
+  height: 60px; 
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+}
+
+.home-product-card-price {
+  
+  text-align: center;
+  height: 30px;
+}
+
+.home-product-card-desc {
+  text-align: center;
+  height: 40px; 
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
+
+.icons-co {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.product-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 250px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.edit-product-button,
+.delete-product-button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.edit-product-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.edit-product-button:hover {
+  background-color: #45a049;
+}
+
+.delete-product-button {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+.delete-product-button:hover {
+  background-color: #e60000;
+}

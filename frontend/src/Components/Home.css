@@ -1,0 +1,65 @@
+/* Container for the home products */
+.home-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+/* Style for each product card */
+.home-product-card {
+    width: 200px; /* Adjusted size */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 15px;
+}
+
+
+/* Style for product image */
+.home-product-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Additional styling for product name and category */
+.home-product-card-category {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Styling for product price */
+.home-product-card-price {
+    color: #e74c3c; /* Red color for price */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Styling for product description */
+.home-product-card-desc {
+    font-size: 14px;
+    color: #333;
+}
+.icons{
+    font-size: 25px;
+    color: #eee;
+    cursor: pointer;
+ }
+ .icons:hover{
+    color: red;
+ }
+ .icons-co {
+    position: absolute;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #fff;
+    margin: 7px;
+}
+.red-icons{
+    font-size: 25px;
+    color: red;
+    cursor: pointer;
+ }
+

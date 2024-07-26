@@ -1,0 +1,18 @@
+.categories{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+  .categories div {
+    padding : 5px;
+  }
+  
+  .categories-list{
+    color: rgba(0, 47, 52, 1);
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .all-categories{
+    padding-right: 15px;
+    font-weight: 500;
+  }
